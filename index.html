@@ -423,11 +423,35 @@
         </div>
     </footer>
 
-    <!-- ========== BOTÃO FLUTUANTE WHATSAPP ========== -->
-    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn" id="whatsappBtn" title="Faça seu orçamento">
-        <i class="fab fa-whatsapp"></i>
-        <span class="whatsapp-tooltip">Faça seu orçamento</span>
-    </a>
+    <!-- ========== BOTÃO FLUTUANTE COM MENU DE CONTATO ========== -->
+    <div class="contact-menu" id="contactMenu">
+        <!-- Botão Principal -->
+        <button class="contact-btn main-btn" id="contactToggle" title="Menu de Contato">
+            <i class="fas fa-comments"></i>
+            <span class="contact-tooltip">Fale Conosco</span>
+        </button>
+
+        <!-- Opções de Contato -->
+        <div class="contact-options">
+            <!-- WhatsApp Cleyton -->
+            <a href="https://wa.me/5581995085917" target="_blank" class="contact-option whatsapp" title="WhatsApp - Cleyton Alves">
+                <i class="fab fa-whatsapp"></i>
+                <span class="option-label">Cleyton<br>(81) 99508-5917</span>
+            </a>
+
+            <!-- WhatsApp Pedro -->
+            <a href="https://wa.me/5581983699098" target="_blank" class="contact-option whatsapp" title="WhatsApp - Pedro Alves">
+                <i class="fab fa-whatsapp"></i>
+                <span class="option-label">Pedro<br>(81) 98369-9098</span>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:infosegtecnologia01@gmail.com" class="contact-option email" title="Email">
+                <i class="fas fa-envelope"></i>
+                <span class="option-label">Email</span>
+            </a>
+        </div>
+    </div>
 
     <!-- Script JavaScript -->
     <script src="js/script.js"></script>

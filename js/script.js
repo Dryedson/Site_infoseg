@@ -3,6 +3,38 @@
 // Funcionalidades interativas do site
 // ========================================
 
+// ========== MENU DE CONTATO FLUTUANTE ==========
+// Controla a abertura e fechamento do menu de contato
+document.addEventListener('DOMContentLoaded', function() {
+    const contactToggle = document.getElementById('contactToggle');
+    const contactMenu = document.getElementById('contactMenu');
+    
+    // Abre/fecha o menu ao clicar no botão
+    if (contactToggle) {
+        contactToggle.addEventListener('click', function() {
+            contactMenu.classList.toggle('active');
+        });
+    }
+    
+    // Fecha o menu ao clicar em uma opção de contato
+    const contactOptions = document.querySelectorAll('.contact-option');
+    contactOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            // Fecha o menu após 500ms
+            setTimeout(() => {
+                contactMenu.classList.remove('active');
+            }, 500);
+        });
+    });
+    
+    // Fecha o menu ao clicar fora dele
+    document.addEventListener('click', function(event) {
+        if (!contactMenu.contains(event.target)) {
+            contactMenu.classList.remove('active');
+        }
+    });
+});
+
 // ========== SLIDESHOW DO HERO ==========
 // Controla o carrossel de imagens do banner principal
 let currentSlideIndex = 0;

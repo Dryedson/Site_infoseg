@@ -1,0 +1,186 @@
+{
+  "empresa": {
+    "nome": "INFOSEG Tecnologia",
+    "slogan": "Segurança Inteligente para seu Negócio",
+    "descricao": "Soluções completas em tecnologia e segurança",
+    "email": "contato@infoseg.com.br",
+    "telefone": "(11) 9999-9999",
+    "whatsapp": "5511999999999"
+  },
+  "cores": {
+    "primaria": "#2ECC71",
+    "primaria_escuro": "#27AE60",
+    "secundaria": "#000000",
+    "texto": "#333333",
+    "texto_claro": "#666666",
+    "fundo": "#FFFFFF",
+    "fundo_cinza": "#F5F5F5",
+    "borda": "#DDDDDD"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/infoseg",
+    "instagram": "https://www.instagram.com/infoseg",
+    "linkedin": "https://www.linkedin.com/company/infoseg",
+    "youtube": "https://www.youtube.com/@infoseg"
+  },
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Câmeras de Segurança",
+      "icone": "fa-camera",
+      "descricao": "Sistemas de vigilância de alta definição com monitoramento 24/7 e armazenamento em nuvem.",
+      "features": [
+        "Câmeras 4K Ultra HD",
+        "Visão noturna infravermelha",
+        "Acesso remoto via app"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Cerca Elétrica",
+      "icone": "fa-bolt",
+      "descricao": "Proteção perimetral com tecnologia de ponta, segura e eficiente para residências e empresas.",
+      "features": [
+        "Instalação profissional",
+        "Sistema de alarme integrado",
+        "Manutenção preventiva"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Cadastro Facial",
+      "icone": "fa-face-smile",
+      "descricao": "Reconhecimento biométrico avançado para controle de acesso seguro e eficiente.",
+      "features": [
+        "IA de última geração",
+        "Reconhecimento em tempo real",
+        "Banco de dados seguro"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Sistemas de Alarme",
+      "icone": "fa-bell",
+      "descricao": "Alarmes inteligentes com notificações em tempo real e central de monitoramento 24h.",
+      "features": [
+        "Sensores de movimento",
+        "Notificações via app",
+        "Integração com câmeras"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Controle de Acesso",
+      "icone": "fa-key",
+      "descricao": "Soluções de controle de entrada com cartões, senhas e biometria integrados.",
+      "features": [
+        "Múltiplos métodos de acesso",
+        "Registro de acessos",
+        "Relatórios detalhados"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Consultoria em Segurança",
+      "icone": "fa-headset",
+      "descricao": "Análise completa de vulnerabilidades e plano personalizado para sua empresa.",
+      "features": [
+        "Diagnóstico gratuito",
+        "Plano customizado",
+        "Suporte contínuo"
+      ]
+    }
+  ],
+  "parceiros": [
+    {
+      "nome": "Segurança Premium",
+      "icone": "fa-shield-alt"
+    },
+    {
+      "nome": "Câmeras Pro",
+      "icone": "fa-camera"
+    },
+    {
+      "nome": "Tech Security",
+      "icone": "fa-lock"
+    },
+    {
+      "nome": "IoT Solutions",
+      "icone": "fa-microchip"
+    },
+    {
+      "nome": "Cloud Storage",
+      "icone": "fa-cloud"
+    },
+    {
+      "nome": "Mobile Apps",
+      "icone": "fa-mobile-alt"
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "João Silva",
+      "empresa": "Proprietário Residencial",
+      "avaliacao": 5,
+      "depoimento": "Excelente serviço! A instalação foi rápida e profissional. Agora durmo tranquilo sabendo que minha casa está protegida."
+    },
+    {
+      "nome": "Maria Santos",
+      "empresa": "Gerente de Loja",
+      "avaliacao": 5,
+      "depoimento": "A INFOSEG transformou a segurança da nossa loja. O sistema de câmeras é muito eficiente e o atendimento é impecável."
+    },
+    {
+      "nome": "Carlos Oliveira",
+      "empresa": "Diretor de Operações",
+      "avaliacao": 5,
+      "depoimento": "Profissionais competentes e atenciosos. O sistema de controle de acesso facial é simplesmente perfeito para nossa empresa."
+    },
+    {
+      "nome": "Ana Costa",
+      "empresa": "Proprietária de Condomínio",
+      "avaliacao": 5,
+      "depoimento": "Recomendo muito! A cerca elétrica é segura, eficiente e o suporte técnico é sempre disponível quando precisamos."
+    }
+  ],
+  "imagens": {
+    "team": [
+      {
+        "url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "Técnico instalando câmera"
+      },
+      {
+        "url": "https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "Técnico em segurança"
+      },
+      {
+        "url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "Profissional de segurança"
+      },
+      {
+        "url": "https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "alt": "Consultor de segurança"
+      }
+    ]
+  },
+  "seo": {
+    "titulo": "INFOSEG Tecnologia - Segurança Inteligente",
+    "descricao": "Soluções completas em segurança: câmeras, cerca elétrica, cadastro facial e muito mais.",
+    "palavras_chave": "segurança, câmeras, cerca elétrica, cadastro facial, tecnologia",
+    "autor": "INFOSEG Tecnologia",
+    "url_canonica": "https://www.infoseg.com.br"
+  },
+  "performance": {
+    "lazy_loading": true,
+    "minify_css": true,
+    "minify_js": true,
+    "cache_busting": true,
+    "preload_fonts": true
+  },
+  "acessibilidade": {
+    "wcag_nivel": "AA",
+    "suporte_teclado": true,
+    "suporte_leitores": true,
+    "contraste_minimo": "4.5:1"
+  }
+}

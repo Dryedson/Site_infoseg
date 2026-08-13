@@ -1,0 +1,110 @@
+# ========== SISTEMA OPERACIONAL ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========== EDITORES E IDEs ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+.project
+.classpath
+*.sublime-workspace
+
+# ========== NODE E DEPENDÊNCIAS ==========
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ========== PYTHON ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========== ARQUIVOS TEMPORÁRIOS ==========
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*~
+
+# ========== CONFIGURAÇÕES LOCAIS ==========
+.env
+.env.local
+.env.*.local
+config.local.json
+settings.local.json
+
+# ========== CACHE ==========
+.cache/
+*.cache
+.eslintcache
+
+# ========== ARQUIVOS DE SISTEMA ==========
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ========== ARQUIVOS SENSÍVEIS ==========
+*.pem
+*.key
+*.crt
+*.p12
+secrets.json
+credentials.json
+.aws/
+.ssh/
+
+# ========== BUILD E DIST ==========
+dist/
+build/
+*.min.js
+*.min.css
+
+# ========== DOCUMENTAÇÃO GERADA ==========
+docs/generated/
+site/
+
+# ========== ARQUIVOS GRANDES NÃO NECESSÁRIOS ==========
+# Manter apenas imagens otimizadas
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# ========== TESTES ==========
+coverage/
+.nyc_output/
